@@ -8,8 +8,8 @@ public class Main {
         int a = num;
         int sum = 0;
         while (a > 0) {
-            int digit = a % 10;
-            sum += digit;
+            int rem = a % 10;
+            sum += rem;
             a /= 10;
         }
         if (num % sum == 0) {
