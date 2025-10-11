@@ -23,6 +23,5 @@ public class Main {
         } else {
             System.out.printf("The Difference of the character in the given string: %03d", diff);
         }
-        sc.close();
     }
 }
